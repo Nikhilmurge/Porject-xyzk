@@ -12,7 +12,9 @@ public class Practice {
        WebDriver driver = new ChromeDriver();
        driver.manage().window().maximize();
        driver.get("https://mvnrepository.com");
-       
+       driver.close;
+	driver.quit;
+		
 	}
 
 }
